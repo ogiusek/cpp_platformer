@@ -1,5 +1,6 @@
 #include "vectorToPointer.cpp"
 #include "excludeVector.cpp"
 #include "stringToFloat.cpp"
+#include "filter.cpp"
 #include "minMax.cpp"
 #include "abs.cpp"
