@@ -1,11 +1,7 @@
 {
   "name": "platformer",
-  "version": "1.0.0",
-  "description": "",
   "scripts": {
-    "start": "g++ src/app.cpp -o dist/program -lSDL2 -lSDL2_ttf -lSDL2_image && echo 'compiled' && ./dist/program"
+    "start": "g++ src/app.cpp -o dist/program -lSDL2 -lSDL2_ttf -lSDL2_image -O3 -ffast-math && echo 'compiled' && ./dist/program"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC"
 }
